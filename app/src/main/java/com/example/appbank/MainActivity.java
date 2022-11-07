@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         Button loginButton =(Button)findViewById(R.id.loginButton);
         loginButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent activityChangeIntent = new Intent(MainActivity.this, ListView.class);
+                Intent activityChangeIntent = new Intent(MainActivity.this, ListsView.class);
                 MainActivity.this.startActivity(activityChangeIntent);
             }
         });

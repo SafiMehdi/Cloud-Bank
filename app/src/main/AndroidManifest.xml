@@ -23,9 +23,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity android:name=".ListView">
-
-        </activity>
+        <activity android:name=".ListsView"></activity>
     </application>
 
 </manifest>

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
->
+    app:passwordToggleEnabled="true">
 
 
     <ImageView
@@ -35,7 +35,8 @@
         android:layout_marginRight="50dp"
         android:layout_marginTop="200dp"
         android:hint="@string/password"
-        android:padding="10dp" />
+        android:padding="10dp"
+        />
 
     <TextView
         android:layout_width="match_parent"
@@ -43,6 +44,14 @@
         android:layout_marginTop="280dp"
         android:layout_marginStart="55dp"
         android:text="@string/remember_me" />
+
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="195dp"
+        android:text="" />
 
     <Switch
         android:id="@+id/Switch"
